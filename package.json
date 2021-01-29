@@ -43,7 +43,8 @@
   "dependencies": {
     "bootstrap": "^4.6.0",
     "bootstrap-vue": "^2.21.2",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "vue-router": "^3.5.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.5.6",
