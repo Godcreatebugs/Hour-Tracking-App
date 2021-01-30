@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import HoursLog from '../views/HoursLog.vue';
-// import Projects from '../views/Projects.vue';
+import Projects from '../views/Projects.vue';
 
 Vue.use(VueRouter);
 
@@ -12,6 +12,11 @@ const routes = [
     path : '/',
     name : 'HoursLog',
     component : HoursLog
+  },
+  {
+    path:'/projects',
+    name: 'Projects',
+    comeponent :Projects
   },
 
 ];
