@@ -31,6 +31,7 @@ module.exports = {
     'tjw-vue'
   ],
   rules: {
+    'indent' : 'off',
     'no-restricted-syntax': [
       'error',
       'Property[method="true"]'

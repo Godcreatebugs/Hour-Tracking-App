@@ -1,4 +1,4 @@
-<template>
+<template lan="ht">
   <div id="app">
     <b-navbar toggleable="lg" type="dark" variant="info">
     <b-button v-b-toggle.sidebar>Menu</b-button>
@@ -9,16 +9,16 @@
       <div class="px-3 py-2">
         <b-list-group>
            <b-list-group-item href="/#/">
-             Hours Log
-           </b-list-group-item>
-           <b-list-group-item href="/#/projects">
+            Hours
+          </b-list-group-item>
+          <b-list-group-item href="/#/projects">
               Projects
            </b-list-group-item>
            ​<div class="dropdown-divider"></div>
-           <b-list-group-item href="/">
+           <b-list-group-item >
              Exports
            </b-list-group-item>
-           <b-list-group-item href="/">
+           <b-list-group-item >
              Settings
            </b-list-group-item>
         </b-list-group>

@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import HoursLog from '../views/HoursLog.vue';
-import Projects from '../views/Projects.vue';
+import HoursLog from '@/views/HoursLog.vue';
+import Projects from '@/views/Projects.vue';
 
 Vue.use(VueRouter);
 
@@ -17,8 +17,7 @@ const routes = [
     path:'/projects',
     name: 'Projects',
     comeponent :Projects
-  },
-
+  }
 ];
 
 const router = new VueRouter({
