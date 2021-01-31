@@ -34,3 +34,20 @@
     </b-row>
   </b-container>
 </template>
+
+
+// javascript object for Timeentry ato add in startDate and EndDate above
+<script>
+export default {
+  name: 'TimeEntry',
+  data () {
+    return {
+      formData: {
+        project: '',
+        startDate: '',
+        endDate: ''
+      }
+    };
+  },
+}
+</script>

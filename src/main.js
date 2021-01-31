@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import vSelect from 'vue-select';
 import DatePicker from 'DatePicker';
+import PouchDB from 'pouchDB';
 
 
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue';
@@ -16,11 +17,17 @@ Vue.component('date-picker', DatePicker);
 Vue.use(BootstrapVue);
 // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin);
-Vue.component("v-select", vSelect);
+Vue.component('v-select', vSelect);
 import App from './App.vue';
 import router from './router';
 import store from './store';
 Vue.config.productionTip = false;
+
+// pouchdb instance
+
+var db = new PouchDB('timeEntry');
+var db = new PouchDB('projectENtry');
+// PochDB.debug.enable('*');
 
 // eslint-disable-next-line no-unused-vars
 const app = new Vue({
