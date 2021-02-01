@@ -45,6 +45,8 @@
     "bootstrap-vue": "^2.21.2",
     "express": "^4.17.1",
     "pouchdb": "^7.2.2",
+    "pouchdb-find": "^7.2.2",
+    "relational-pouch": "^4.0.0",
     "vue-router": "^3.5.1",
     "vue-select": "^3.11.2",
     "vuejs-datepicker": "^1.6.2",
